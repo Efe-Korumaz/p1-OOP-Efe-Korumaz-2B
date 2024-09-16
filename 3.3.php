@@ -1,6 +1,16 @@
-<?php
-$student = ["name" => "Jan", "age" => 20, "grade" => "A"];
 
-echo $student['name'];
-echo ' ';
-echo $student['grade'];
+
+
+
+
+
+<?php
+session_start();
+
+$_POST['student'];
+$_POST['age'];
+
+$_GET['page'];
+
+unset($_SESSION['student']);
+$_SESSION = [];
