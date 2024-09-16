@@ -4,7 +4,7 @@ $Age;
 $_Name;
 $FullName;
 $example4;
-$height
+$height;
  //Incorrect variable 
 $1age; // can't start with number has to be $age or $age1.
 name; // doesn't have a $ needs to be $name.
