@@ -1,7 +1,8 @@
 <?php
-$num = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
-do {
-    echo "geraden";
-}
 
-while($i = $num)
+
+do {
+    $num = random_int(0,10);
+
+    echo "Geraden: " . $num . "<br>";
+}while($num !=5);
