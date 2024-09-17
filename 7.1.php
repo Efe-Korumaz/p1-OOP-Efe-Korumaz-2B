@@ -8,17 +8,13 @@
 </head>
 
 <body>
-    <form action="7.1.php" method="post">
+    <form action="verwerk.php" method="post">
 
-        naam: <input type="text" name=name; "wachtwoord: <input type=" password" name=Password; </form>
+        naam: <input type="text" name="name">;
+        "wachtwoord:" <input type="password" name="Password">;
+        <input type="submit" value="submit"  >
+    </form>
 </body>
 
 </html>
 
-<?php
-
-$name = $_POST['name'];
-$password = $_POST['password'];
-echo "Naam:" . $name . "<br>";
-echo "Wachtwoord:" . $password . "<br>";
-    ?>
