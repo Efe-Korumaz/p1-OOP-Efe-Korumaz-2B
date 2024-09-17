@@ -8,12 +8,12 @@ for ($i = 1; $i < 4; $i++) {
 
 echo "<br>";
 
-for ($a = 4; $a < 7; $a++) {
-    echo $a;
+for ($j = 4; $j < 7; $j++) {
+    echo $j;
 };
 
 echo "<br>";
 
-for ($b = 7; $b < 10; $b++) {
-    echo $b;
+for ($k = 7; $k < 10; $k++) {
+    echo $k;
 };

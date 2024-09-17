@@ -5,3 +5,4 @@ $password = $_POST['Bday'];
 
 echo "Naam:" . $Tel . "<br>";
 echo "Wachtwoord:" . $Bday;
+?>
