@@ -10,11 +10,20 @@
 <body>
     <form action="verwerk.php" method="post">
 
-        naam: <input type="text" name="name">;
-        "wachtwoord:" <input type="password" name="Password">;
+        Telefoon nummer: <input type="text" name="Tel">;
+        "Verjaardag" <input type="date" name="Bday">;
         <input type="submit" value="submit"  >
     </form>
 </body>
 
 </html>
+
+<?php
+
+$name = $_POST['Tel'];
+$password = $_POST['Bday'];
+
+echo "uw nummer:" . $Tel . "<br>";
+echo "Verjaardag:" . $Bday;
+
 

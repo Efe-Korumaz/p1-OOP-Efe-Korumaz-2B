@@ -1,8 +1,7 @@
 <?php
 
-$name = $_POST['name'];
-$password = $_POST['Password'];
+$name = $_POST['Tel'];
+$password = $_POST['Bday'];
 
-echo "Naam:" . $name . "<br>";
-echo "Wachtwoord:" . $password;
-?>
+echo "Naam:" . $Tel . "<br>";
+echo "Wachtwoord:" . $Bday;
