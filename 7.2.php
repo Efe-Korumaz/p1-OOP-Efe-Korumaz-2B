@@ -1,4 +1,4 @@
-<a href="op2.php?voornaam=Efe&achternaam=Korumaz">Klik hier om je naam te versturen</a>
+<a href="7.2.php?voornaam=Efe&achternaam=Korumaz">Klik hier om je naam te versturen</a>
 
 <?php
 
