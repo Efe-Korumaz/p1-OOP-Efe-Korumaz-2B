@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$_SESSION['Language'] = "Nederlands";
+$_SESSION['Langueage'] = "Nederlands";
 echo "Taal: " . $_SESSION['Langueage'];
 
 unset($_SESSION['Langueage']);
